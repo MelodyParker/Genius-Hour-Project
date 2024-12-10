@@ -35,14 +35,14 @@ function draw() {
   image(bwImg, 0, 0, bwImg.width, bwImg.height);
 }
 
-function mousePressed() {
-  startMouseX = mouseX;
-  startMouseY = mouseY;
-}
+// function mousePressed() {
+//   startMouseX = mouseX;
+//   startMouseY = mouseY;
+// }
 
-function mouseReleased() {
-  makeSectionColored(startMouseX, startMouseY, mouseX - startMouseX, mouseY - startMouseY)
-}
+// function mouseReleased() {
+//   makeSectionColored(startMouseX, startMouseY, mouseX - startMouseX, mouseY - startMouseY)
+// }
 
 
 
