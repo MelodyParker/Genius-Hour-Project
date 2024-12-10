@@ -3,8 +3,8 @@ let colorImg;
 let startMouseX, startMouseY;
 
 function preload() {
-  bwImg = loadImage("/Genius Hour.png");
-  colorImg = loadImage("/Genius Hour.png")
+  bwImg = loadImage("./Genius Hour.png");
+  colorImg = loadImage("./Genius Hour.png")
 }
 
 
@@ -21,9 +21,9 @@ function setup() {
       // let a = pixels[index+3];
       let bw = (r + g + b)/3;
             
-      bwImg.pixels[index] = bw;
-      bwImg.pixels[index + 1] = bw;
-      bwImg.pixels[index + 2] = bw;
+      bwImg.pixels[index] = bw * 2 / 3;
+      bwImg.pixels[index + 1] = bw * 2 / 3;
+      bwImg.pixels[index + 2] = bw * 2 / 3;
     }
   }
   bwImg.updatePixels();

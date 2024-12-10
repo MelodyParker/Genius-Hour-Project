@@ -1,7 +1,7 @@
 const books = [
   {
     title: "Catch-22",
-    imgPath: "/covers/Catch-22.jpg",
+    imgPath: "./covers/Catch-22.jpg",
     imgCropping: [
       {
         top: 0,
@@ -25,7 +25,7 @@ const books = [
   },
   {
     title: "The Importance of Being Earnest",
-    imgPath: "/covers/Earnest.jpg",
+    imgPath: "./covers/Earnest.jpg",
     imgCropping: [
       {
         top: 545,
@@ -45,7 +45,7 @@ const books = [
   // },
   {
     title: "Pride and Prejudice",
-    imgPath: "/covers/Pride and Prejudice.jpg",
+    imgPath: "./covers/Pride and Prejudice.jpg",
     imgCropping: [
       {
         top: 621,
@@ -57,7 +57,7 @@ const books = [
   },
   {
     title: "Slaughterhouse-Five",
-    imgPath: "/covers/Slaughterhouse-Five.jpg",
+    imgPath: "./covers/Slaughterhouse-Five.jpg",
     imgCropping: [
       {
         top: 0,
@@ -68,7 +68,7 @@ const books = [
       {
         top: 543,
         left: 0,
-        right: 843,
+        right: 850,
         bottom: 740
       }
     ]
