@@ -1,6 +1,7 @@
 let bwImg;
 let colorImg;
 let startMouseX, startMouseY;
+let completed = [];
 
 function preload() {
   bwImg = loadImage("./Genius Hour.png");
